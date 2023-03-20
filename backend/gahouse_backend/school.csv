@@ -1,0 +1,267 @@
+County,CITIES,TYPE,SCHOOL NAME,SCHOOL (FMLS VALUE),ZIP,RATING
+Cobb,Acworth,Elementary,Ford Elementary School,Ford,,9
+Cobb,Acworth,Elementary,Frey Elementary School,FREY,,8
+Cobb,Acworth,Elementary,Pickett's Mill Elementary,Pickett's Mill,,8
+Cobb,Acworth,Elementary,Baker Elementary School,Baker,,7
+Cobb,Acworth,Elementary,Clark Creek Elementary,Clark Creek,,7
+Cobb,Acworth,Elementary,Pitner Elementary School,Pitner,,6
+Cobb,Acworth,High,Allatoona High School,Allatoona,,8
+Cobb,Acworth,Middle,Barber Middle School,Barber,,8
+Cobb,Acworth,Middle,Durham Middle School,Durham,,8
+Fulton,Alpharetta,Elementary,State Bridge Crossing Elementary School,State Bridge Crossing,,9
+Fulton,Alpharetta,Elementary,Lake Windward Elementary School,Lake Windward,,9
+Fulton,Alpharetta,Elementary,Creek View Elementary School,Creek View,,9
+Fulton,Alpharetta,Elementary,Barnwell Elementary School,Barnwell,,8
+Fulton,Alpharetta,Elementary,Medlock Bridge Elementary School,Medlock Bridge,,8
+Fulton,Alpharetta,Elementary,Cogburn Woods Elementary School,Cogburn Woods,,8
+Fulton,Alpharetta,Elementary,Crabapple Crossing Elementary School,Crabapple Crossing,,8
+Fulton,Alpharetta,Elementary,Dolvin Elementary School,Dolvin,,8
+Fulton,Alpharetta,Elementary,Alpharetta Elementary School,Alpharetta,,8
+Fulton,Alpharetta,Elementary,Summit Hill Elementary,Summit Hill,,7
+Fulton,Alpharetta,Elementary,Ocee Elementary School,Ocee,,7
+Fulton,Alpharetta,Elementary,Midway Elementary School,Midway - Forsyth,30004,7
+Fulton,Alpharetta,Elementary,Brandywine Elementary School,Brandywine,,6
+Fulton,Alpharetta,Elementary,New Prospect Elementary School,New Prospect,,6
+Fulton,Alpharetta,High,Chattahoochee High School,Chattahoochee,,9
+Fulton,Alpharetta,High,Alpharetta High School,Alpharetta,,9
+Fulton,Alpharetta,High,Milton High School,Milton,,8
+Fulton,Alpharetta,High,Denmark High School,Denmark High School,,7
+Fulton,Alpharetta,Middle,Webb Bridge Middle School,Webb Bridge,,9
+Fulton,Alpharetta,Middle,Taylor Road Middle School,Taylor Road,,9
+Fulton,Alpharetta,Middle,Autrey Mill Middle School,Autrey Mill,,9
+Fulton,Alpharetta,Middle,Northwestern Middle School,Northwestern,,7
+Fulton,Alpharetta,Middle,Hopewell Middle School,Hopewell,,7
+Fulton,Alpharetta,Middle,DeSana Middle School,DeSana,,7
+Fulton,Alpharetta,Middle,Holcomb Bridge Middle School,Holcomb Bridge,,6
+Fulton,Buckhead,Elementary,Brandon Elementary School,Morris Brandon,,9
+Fulton,Buckhead,Elementary,Woodland Elementary School,Woodland - Fulton,,8
+Fulton,Buckhead,Elementary,Jackson Elementary School,Jackson - Atlanta,,8
+Fulton,Buckhead,Elementary,Smith Elementary School,Sara Rawson Smith,,7
+Fulton,Buckhead,Elementary,Lin Elementary School,Mary Lin,,7
+Fulton,Buckhead,Elementary,Oak Grove Elementary School,Oak Grove - Dekalb,,7
+Fulton,Buckhead,Elementary,West Manor Elementary School,West Manor,,7
+Fulton,Buckhead,Elementary,Ashford Park Elementary School,Ashford Park,,6
+Fulton,Buckhead,Elementary,Beecher Hills Elementary School,Beecher Hills,,6
+Fulton,Buckhead,High,Westlake High School,Westlake,,7
+Fulton,Buckhead,High,North Atlanta High School,North Atlanta,,7
+Fulton,Buckhead,Middle,Sutton Middle School,Willis A. Sutton,,7
+Dekalb,Brookhaven,Elementary,Montgomery Elementary School,Montgomery,,7
+Dekalb,Brookhaven,Elementary,Woodward Elementary School,Woodward,,4
+Dekalb,Brookhaven,Elementary,Montclair Elementary School,Montclair,,2
+Dekalb,Brookhaven,High,Cross Keys High School,Cross Keys,,5
+Cherokee,Canton,Elementary,Liberty Elementary School,Liberty - Cherokee,,8
+Cherokee,Canton,Elementary,Avery Elementary School,Avery,,8
+Cherokee,Canton,Elementary,Holly Springs Elementary School,Holly Springs - Cherokee,,7
+Cherokee,Canton,Elementary,Sixes Elementary School,Sixes,,7
+Cherokee,Canton,Elementary,Macedonia Elementary School,Macedonia,,7
+Cherokee,Canton,Middle,Creekland Middle School,Creekland - Cherokee,,7
+Cherokee,Canton,Middle,Dean Rusk Middle School,Dean Rusk,,7
+Cherokee,Canton,Middle,Freedom Middle School,Freedom - Cherokee,,6
+Cherokee,Canton,Middle,Teasley Middle School,Teasley,,4
+Cherokee,Canton,High,Creekview High School,Creekview,,8
+Cherokee,Canton,High,Sequoyah High School,Sequoyah,,7
+Cherokee,Canton,High,Cherokee High School,Cherokee,,5
+Dekalb,Chamblee,Elementary,Dresden Elementary School,Dresden,,5
+Dekalb,Chamblee,Elementary,Huntley Hills Elementary School,Huntley Hills,,5
+Dekalb,Chamblee,Middle,Chamblee Middle School,Chamblee,,7
+Dekalb,Chamblee,Middle,Henderson Middle School,Henderson - Dekalb,,5
+Forsyth,Cumming,Elementary,Brookwood Elementary,Brookwood - Forsyth,,9
+Forsyth,Cumming,Elementary,George W. Whitlow Elementary,George W. Whitlow,,9
+Forsyth,Cumming,Elementary,Daves Creek Elementary School,Daves Creek,,9
+Forsyth,Cumming,Elementary,Vickery Creek Elementary School,Vickery Creek,,9
+Forsyth,Cumming,Elementary,Shiloh Point Elementary,Shiloh Point,,8
+Forsyth,Cumming,Elementary,Kelly Mill Elementary,Kelly Mill,,8
+Forsyth,Cumming,Elementary,Big Creek Elementary School,Big Creek,,8
+Forsyth,Cumming,Elementary,Mashburn Elementary School,Mashburn,,8
+Forsyth,Cumming,Elementary,Matt Elementary School,Matt,,7
+Forsyth,Cumming,Elementary,Silver City Elementary School,Silver City,,7
+Forsyth,Cumming,Elementary,Haw Creek Elementary,Haw Creek,,7
+Forsyth,Cumming,Elementary,Coal Mountain Elementary School,Coal Mountain,,7
+Forsyth,Cumming,Elementary,Chattahoochee Elementary School,Chattahoochee - Forsyth,,6
+Forsyth,Cumming,Elementary,Sawnee Elementary School,Sawnee,,6
+Forsyth,Cumming,High,South Forsyth High School,South Forsyth,,9
+Forsyth,Cumming,High,West Forsyth High School,West Forsyth,,7
+Forsyth,Cumming,High,North Forsyth High School,North Forsyth,,7
+Forsyth,Cumming,High,Forsyth Central High School,Forsyth Central,,7
+Forsyth,Cumming,Middle,Vickery Creek Middle School,Vickery Creek,,9
+Forsyth,Cumming,Middle,Piney Grove Middle School,Piney Grove,,8
+Forsyth,Cumming,Middle,Lakeside Middle School,Lakeside - Forsyth,,8
+Forsyth,Cumming,Middle,South Forsyth Middle School,South Forsyth,,8
+Forsyth,Cumming,Middle,Liberty Middle School,Liberty - Forsyth,,7
+Forsyth,Cumming,Middle,Otwell Middle School,Otwell,,7
+Forsyth,Cumming,Middle,North Forsyth Middle School,North Forsyth,,7
+Forsyth,Cumming,Middle,Little Mill Middle School,Little Mill,,6
+Dekalb,Decatur,Elementary,Oakhurst Elementary School,Oakhurst/Fifth Avenue,,9
+Dekalb,Decatur,Elementary,Winnona Park Elementary School,Winnona Park/Fifth Avenue,,8
+Dekalb,Decatur,Elementary,Narvie Harris Elementary School,Narvie Harris,,7
+Dekalb,Decatur,Elementary,Briarlake Elementary School,Briarlake,,7
+Dekalb,Decatur,Elementary,Laurel Ridge Elementary School,Laurel Ridge,,6
+Dekalb,Decatur,Elementary,Kelley Lake Elementary School,Kelley Lake,,6
+Dekalb,Decatur,High,Decatur High School,Decatur,,7
+Dekalb,Doraville,Elementary,Oakcliff Elementary School,Oakcliff,,6
+Dekalb,Doraville,Elementary,Evansdale Elementary School,Evansdale,,5
+Dekalb,Doraville,Elementary,Pleasantdale Elementary School,Pleasantdale,,5
+Dekalb,Doraville,Elementary,Hightower Elementary School,Hightower,,4
+Dekalb,Doraville,Elementary,Cary Reynolds Elementary School,Cary Reynolds,,4
+Gwinnett,Duluth,Elementary,Harris Elementary School,Harris,,9
+Gwinnett,Duluth,Elementary,Wilson Creek Elementary School,Wilson Creek,,9
+Gwinnett,Duluth,Elementary,Mason Elementary School,Mason,,8
+Gwinnett,Duluth,Elementary,Findley Oaks Elementary School,Findley Oaks,,8
+Gwinnett,Duluth,Elementary,Chattahoochee Elementary School,Chattahoochee - Gwinnett,,7
+Gwinnett,Duluth,Elementary,Abbotts Hill Elementary School,Abbotts Hill,,7
+Gwinnett,Duluth,Elementary,Chesney Elementary School,Chesney,,6
+Gwinnett,Duluth,Elementary,Ferguson Elementary School,Ferguson,,6
+Gwinnett,Duluth,High,Northview High School,Northview,,9
+Gwinnett,Duluth,High,Duluth High School,Duluth,,6
+Gwinnett,Duluth,Middle,River Trail Middle School,River Trail,,9
+Gwinnett,Duluth,Middle,Hull Middle School,Hull,,8
+Gwinnett,Duluth,Middle,Coleman Middle School,Coleman,,8
+Gwinnett,Duluth,Middle,Duluth Middle School,Duluth,,6
+Dekalb,Dunwoody,Elementary,Austin Elementary School,Austin,,10
+Dekalb,Dunwoody,Elementary,Vanderlyn Elementary School,Vanderlyn,,9
+Dekalb,Dunwoody,Elementary,Chesnut Elementary School,Chesnut,,8
+Dekalb,Dunwoody,Elementary,Dunwoody Elementary School,Dunwoody,,7
+Dekalb,Dunwoody,High,Dunwoody High School,Dunwoody,,6
+Cobb,East Cobb,Elementary,Mountain View Elementary School,Mountain View - Cobb,,10
+Cobb,East Cobb,Elementary,Murdock Elementary School,Murdock,,9
+Cobb,East Cobb,Elementary,Garrison Mill Elementary School,Garrison Mill,,9
+Cobb,East Cobb,Elementary,Shallowford Falls Elementary School,Shallowford Falls,,9
+Cobb,East Cobb,Elementary,Sope Creek Elementary School,Sope Creek,,9
+Cobb,East Cobb,Elementary,Timber Ridge Elementary School,Timber Ridge - Cobb,,9
+Cobb,East Cobb,Elementary,East Side Elementary School,East Side,,8
+Cobb,East Cobb,Elementary,Tritt Elementary School,Tritt,,8
+Cobb,East Cobb,Elementary,Kincaid Elementary School,Kincaid,,8
+Cobb,East Cobb,Elementary,Mount Bethel Elementary School,Mount Bethel,,8
+Cobb,East Cobb,Elementary,Rocky Mount Elementary School,Rocky Mount,,7
+Cobb,East Cobb,Elementary,Bells Ferry Elementary School,Bells Ferry,,7
+Cobb,East Cobb,Elementary,Addison Elementary School,Addison,,7
+Cobb,East Cobb,Elementary,Davis Elementary School,Davis - Cobb,,6
+Cobb,East Cobb,Elementary,Eastvalley Elementary School,Eastvalley,,6
+Cobb,East Cobb,High,Lassiter High School,Lassiter,,10
+Cobb,East Cobb,High,Walton High School,Walton,,9
+Cobb,East Cobb,High,Pope High School,Pope,,8
+Cobb,East Cobb,High,Wheeler High School,Wheeler,,7
+Cobb,East Cobb,High,Kell High School,Kell,,6
+Cobb,East Cobb,High,Sprayberry High School,Sprayberry,,6
+Cobb,East Cobb,Middle,Hightower Trail Middle School,Hightower Trail,,9
+Cobb,East Cobb,Middle,Dodgen Middle School,Dodgen,,9
+Cobb,East Cobb,Middle,Simpson Middle School,Simpson,,9
+Cobb,East Cobb,Middle,Dickerson Middle School,Dickerson,,9
+Cobb,East Cobb,Middle,Mabry Middle School,Mabry,,8
+Cobb,East Cobb,Middle,Daniell Middle School,Daniell,,7
+Cobb,East Cobb,Middle,McCleskey Middle School,McCleskey,,6
+Cobb,East Cobb,Middle,East Cobb Middle School,East Cobb,,6
+Fulton,Johns Creek,Elementary,Shakerag Elementary School,Shakerag,,8
+Fulton,Johns Creek,High,Johns Creek High School,Johns Creek,,8
+Cobb,Kennesaw,Elementary,Bullard Elementary School,Bullard,,6
+Cobb,Kennesaw,Elementary,Big Shanty Elementary School,Big Shanty/Kennesaw,,6
+Cobb,Kennesaw,Elementary,Lewis Elementary School,Lewis - Cobb,,6
+Cobb,Kennesaw,Elementary,Chalker Elementary School,Chalker,,6
+Cobb,Kennesaw,High,Harrison High School,Harrison,,9
+Cobb,Kennesaw,High,Kennesaw Mountain High School,Kennesaw Mountain,,8
+Cobb,Kennesaw,High,North Cobb High School,North Cobb,,8
+Cobb,Kennesaw,Middle,Palmer Middle School,Palmer,,8
+Cobb,Kennesaw,Middle,McClure Middle School,McClure,,8
+Cobb,Kennesaw,Middle,Lost Mountain Middle School,Lost Mountain,,8
+Cobb,Kennesaw,Middle,Awtrey Middle School,Awtrey,,7
+Gwinnett,Lawrenceville,Elementary,Craig Elementary School,Craig,,9
+Gwinnett,Lawrenceville,Elementary,Gwin Oaks Elementary School,Gwin Oaks,,8
+Gwinnett,Lawrenceville,Elementary,Taylor Elementary School,Taylor - Gwinnett,,8
+Gwinnett,Lawrenceville,Elementary,Freeman's Mill Elementary School,Freeman's Mill,,8
+Gwinnett,Lawrenceville,Elementary,Woodward Mill Elementary School,Woodward Mill,,8
+Gwinnett,Lawrenceville,Elementary,Bethesda Elementary School,Bethesda,,7
+Gwinnett,Lawrenceville,Elementary,McKendree Elementary School,McKendree,,7
+Gwinnett,Lawrenceville,Elementary,Corley Elementary School,Corley,,7
+Gwinnett,Lawrenceville,Elementary,Alford Elementary ,Alford,,7
+Gwinnett,Lawrenceville,Elementary,Lovin Elementary School,Lovin,,7
+Gwinnett,Lawrenceville,Elementary,Benefield Elementary School,Benefield,,7
+Gwinnett,Lawrenceville,Elementary,Jackson Elementary School,Jackson - Gwinnett,,6
+Gwinnett,Lawrenceville,Elementary,Kanoheda Elementary School,Kanoheda,,6
+Gwinnett,Lawrenceville,Elementary,Rock Springs Elementary School,Rock Springs,,6
+Gwinnett,Lawrenceville,Elementary,Jenkins Elementary School,Jenkins,,6
+Gwinnett,Lawrenceville,Elementary,Baggett Elementary School,Baggett,,6
+Gwinnett,Lawrenceville,High,Archer High School,Archer,,7
+Gwinnett,Lawrenceville,High,Mountain View High School,Mountain View,,6
+Gwinnett,Lawrenceville,Middle,Five Forks Middle School,Five Forks,,8
+Gwinnett,Lawrenceville,Middle,Crews Middle School,Crews,,8
+Gwinnett,Lawrenceville,Middle,Sweetwater Middle School,Sweetwater,,6
+Gwinnett,Lawrenceville,Middle,Creekland Middle School,Creekland - Gwinnett,,6
+Cobb,Marietta,Elementary,Due West Elementary School,Due West,,9
+Cobb,Marietta,Elementary,Dunleith Elementary School,Dunleith,,7
+Cobb,Marietta,Elementary,Milford Elementary School,Milford,,7
+Cobb,Marietta,Elementary,West Side Elementary School,West Side - Cobb,,6
+Cobb,Marietta,Elementary,Cheatham Hill Elementary School,Cheatham Hill,,6
+Cobb,Marietta,High,Marietta High School,Marietta,,6
+Cobb,Marietta,Middle,Smitha Middle School,Smitha,,6
+Fulton,Midtown,High,Grady High School,Grady - Other,,6
+Fulton,Milton,Elementary,Birmingham Falls Elementary School,Birmingham Falls,,8
+Fulton,Milton,High,Cambridge High School,Cambridge,,8
+Fulton,Roswell,Elementary,Sweet Apple Elementary School,Sweet Apple,,10
+Fulton,Roswell,Elementary,Northwood Elementary School,Northwood,,8
+Fulton,Roswell,Elementary,Mountain Park Elementary School,Mountain Park - Fulton,,8
+Fulton,Roswell,Elementary,River Eves Elementary School,River Eves,,7
+Fulton,Roswell,Elementary,Hembree Sprints Elementary School,Hembree Springs,,7
+Fulton,Roswell,Elementary,Roswell North Elementary School,Roswell North,,7
+Fulton,Roswell,Elementary,Mimosa Elementary School,Mimosa,,6
+Fulton,Roswell,Elementary,Hillside Elementary School,Hillside,,6
+Fulton,Roswell,High,Roswell High School,Roswell,,8
+Fulton,Roswell,High,Centennial High School,Centennial,,6
+Fulton,Roswell,Middle,Elkins Pointe Middle School,Elkins Pointe,,7
+Fulton,Roswell,Middle,Crabapple Middle School,Crabapple,,6
+Cobb,Smyrna,Elementary,King Springs Elementary School,King Springs,,6
+Cobb,Smyrna,Elementary,Teasley Elementary School,Teasley,,6
+Cobb,Smyrna,Elementary,Nickajack Elementary School,Nickajack,,6
+Cobb,Smyrna,High,Campbell High School,Campbell,,6
+Gwinnett,Suwanee,Elementary,Settles Bridge Elementary School,Settles Bridge,,9
+Gwinnett,Suwanee,Elementary,Riverside Elementary School,Riverside - Gwinnett,,9
+Gwinnett,Suwanee,Elementary,Level Creek Elementary School,Level Creek,,9
+Gwinnett,Suwanee,Elementary,Johns Creek Elementary,Johns Creek,,9
+Gwinnett,Suwanee,Elementary,Walnut Grove Elementary School,Walnut Grove - Gwinnett,,8
+Gwinnett,Suwanee,Elementary,Suwanee Elementary School,Suwanee,,8
+Gwinnett,Suwanee,Elementary,Sharon Elementary School,Sharon - Forsyth,,8
+Gwinnett,Suwanee,Elementary,Parsons Elementary School,Parsons,,8
+Gwinnett,Suwanee,Elementary,Burnette Elementary School,Burnette,,8
+Gwinnett,Suwanee,High,North Gwinnett High School,North Gwinnett,,9
+Gwinnett,Suwanee,High,Lambert High School,Lambert,,9
+Gwinnett,Suwanee,High,Peachtree Ridge High School,Peachtree Ridge,,7
+Gwinnett,Suwanee,High,Collins Hill High School,Collins Hill,,6
+Gwinnett,Suwanee,Middle,Riverwatch Middle School,Riverwatch,,9
+Gwinnett,Suwanee,Middle,Northbrook Middle School,Northbrook,,9
+Fulton,Virginia Highlands,Elementary,Morningside Elementary School,Morningside-,,8
+Fulton,Virginia Highlands,Elementary,Springdale Park Elementary School,Springdale Park,,8
+Fulton,Virginia Highlands,Elementary,Briar Vista Elementary School,Briar Vista,,6
+Cobb,Woodstock,Elementary,Bascomb Elementary School,Bascomb,,8
+Cobb,Woodstock,Elementary,Mountain Road Elementary School,Mountain Road,,8
+Cobb,Woodstock,Elementary,Woodstock Elementary School,Woodstock,,7
+Cobb,Woodstock,Elementary,Arnold Mill Elementary School,Arnold Mill,,7
+Cobb,Woodstock,Elementary,Boston Elementary School,Boston,,7
+Cobb,Woodstock,Elementary,Little River Elementary,Little River,,7
+Cobb,Woodstock,High,Etowah High School,Etowah,,8
+Cobb,Woodstock,High,River Ridge High School,River Ridge,,7
+Cobb,Woodstock,High,Woodstock High School,Woodstock,,6
+Cobb,Woodstock,Middle,Mill Creek Middle School,Mill Creek,,7
+Cobb,Woodstock,Middle,Woodstock Middle School,Woodstock,,6
+Cobb,Woodstock,Middle,E. T. Booth Middle School,E.T. Booth,,6
+Fulton,Sandy Springs,Elementary,"Dunwoody Springs Elementary School
+",Dunwoody Springs,,8
+Fulton,Sandy Springs,Elementary,Heards Ferry Elementary School,Heards Ferry,,8
+Fulton,Sandy Springs,Elementary,High Point Elementary School,High Point,,7
+Fulton,Sandy Springs,Elementary,Ison Springs Elementary School,Ison Springs,,7
+Fulton,Sandy Springs,Elementary,Lake Forest Elementary School,Lake Forest,,6
+Fulton,Sandy Springs,Elementary,Spalding Drive Charter Elementary School,Spalding Drive,,5
+Fulton,Sandy Springs,Middle,"Ridgeview Charter School
+
+",Ridgeview Charter,,7
+Fulton,Sandy Springs,Middle,Sandy Springs Charter Middle School,Sandy Springs,,7
+Fulton,Sandy Springs,High,North Springs Charter High School,North Springs,,8
+Fulton,Sandy Springs,High,Riverwood International Charter School,Riverwood International Charter,,7
+Gwinnett,Snellville,Elementary,Brookwood Elementary School,Brookwood - Gwinnett,,9
+Gwinnett,Snellville,Elementary,Pharr Elementary School,Pharr,,8
+Gwinnett,Snellville,Elementary,Partee Elementary School,Partee,,8
+Gwinnett,Snellville,Elementary,Shiloh Elementary School,Shiloh,,7
+Gwinnett,Snellville,Elementary,Centerville Elementary School,Centerville - Gwinnett,,6
+Gwinnett,Snellville,Middle,Snellville Middle School,Snellville,,5
+Gwinnett,Snellville,Middle,Shiloh Middle School,Shiloh,,5
+Gwinnett,Snellville,High,Brookwood High School,Brookwood,,8
+Gwinnett,Snellville,High,South Gwinnett High School,South Gwinnett,,5
+Gwinnett,Snellville,High,Shiloh High School,Shiloh,,4

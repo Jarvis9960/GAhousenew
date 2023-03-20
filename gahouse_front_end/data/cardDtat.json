@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "url": "images/investor-blog.jpg",
+        "title":"First Time Home Buyers",
+        "discription":"We love working with first-time homebuyers because it’s an opportunity not only to introduce..",
+        "author":"by Aman Grover",
+        "date": "November 9, 2021",
+        "tag":"Real Estate",
+        "link": "BlogReport"
+
+    },
+    {
+        "id": 2,
+        "url": "images/housebg1-blog.jpg",
+        "title":"Different Loan Options",
+        "discription":"Although most homeowners choose to get a conventional 30-year mortgage, that doesn’t mean...",
+        "author":"by Aman Grover",
+        "date": "October 9, 2021",
+        "tag":"Real Estate",
+        "link": "DifferentLoanOption"
+
+    },
+    {
+        "id": 3,
+        "url": "images/blog-1.jpg",
+        "title":"How To Fix Your Credit Before Purchasing House",
+        "discription":"Fixing your credit should be the first thing you think about doing after deciding that you want to...",
+        "author":"by Aman Grover",
+        "date": "September 9, 2021",
+        "tag":"Real Estate",
+        "link": "HowtofixCredit"
+
+    }
+]

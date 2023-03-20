@@ -1,0 +1,1083 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{ box-sizing:border-box;}
+html{ overflow-x:hidden;}
+body{ margin:0; padding:0; background:#ffffff;   font-family: 'Lato', sans-serif; }
+a{ color: inherit; text-decoration:none; transition:0.5s;}
+a:focus,a:visited,a:active{ outline:none; border:none; text-decoration:none;}
+img{ max-width:100%; height:auto; display:block; margin: 0 auto;}
+ul,ol{ margin:0; padding:0; list-style:none;}
+input:focus,select:focus,textarea:focus{ outline:0;}
+input, textarea, select { -webkit-appearance: none; -webkit-border-radius: 0; font-family: 'Lato', sans-serif; }
+select::-ms-expand {display: none;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#777777; opacity:1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#777777; opacity:1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#777777; opacity:1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:#777777; opacity:1;
+}
+body {
+	font-family: serif;
+}
+.map-area {
+	margin:0 auto;
+	/*background:url(../images/main.jpeg) no-repeat 0 0;
+	background:url(../images/main-652.png) no-repeat 0 0;*/
+	position:relative;
+	overflow:hidden;
+	font-family: 'Lato', sans-serif;
+	margin-top:15px
+}
+.map-area > div {
+	position:absolute
+}
+.img-area .overlay-img {
+	position:absolute;
+	left:0;
+	top:0;
+	opacity: 0;
+ 	transition: .5s ease;
+}
+.map-main.post-hover .overlay-img{
+    opacity: 1;
+}
+.map-area .img-area span {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 36px;
+	/*color: #606060;*/
+	color: #000000;
+	letter-spacing: -0.025em;
+	/*text-shadow: 1px 1px #ffffff;*/
+	text-transform: uppercase;
+	transform: translateZ(0);
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	z-index:1
+}
+.map-area {
+	width:1192px;
+	height:1280px;
+}
+#map-cherokee {
+	width:458px;
+	height:473px;
+	top: 0;
+	left: 219px;
+}
+#map-cobb {
+	width:412px;
+	height:468px;
+	top: 462px;
+	left: 124px;
+}
+#map-fulton {
+	width:840px;
+	height:953px;
+	bottom: 5px;
+	left: 1px;
+}
+#map-dekalb {
+	width:359px;
+	height:488px;
+	bottom: 170px;
+	right: 273px;
+}
+#map-gwinnett {
+	width:535px;
+	height:574px;
+	top: 352px;
+	right: 0px;
+}
+#map-forsyth {
+	width:372px;
+	height:390px;
+	top: 116px;
+	right: 146px;
+}
+#map-cherokee .img-area span {
+	top: 268px;
+	left: 105px;
+}
+#map-cobb .img-area span {
+	top: 168px;
+	left: 58px;
+}
+#map-fulton .img-area span {
+    top: 590px;
+    left: 278px;
+	transform: rotate(308deg);
+}
+#map-dekalb .img-area span {
+	top: 332px;
+	left: 45px;
+}
+#map-gwinnett .img-area span {
+	top: 326px;
+	left: 152px;
+}
+#map-forsyth .img-area span {
+	top: 86px;
+	left: 50px;
+}
+.map-text {
+}
+.map-text div {
+	position: absolute;
+	z-index: 7;
+	pointer-events: none;
+}
+.map-text div.elem-active {
+}
+.big-txt span,
+.map-text a {
+	display: block;
+	pointer-events: auto;
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+#map-fulton .img-area .big-txt span span,
+.big-txt span span {position: static;transform: none}
+#map-fulton .img-area .big-txt:hover span span,
+.big-txt:hover span,
+.map-text a:hover {
+	transform: scale(1.2);
+}
+.map-text span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	color: #606060;
+	font-weight:500;
+	line-height: 0.9;
+	/*text-shadow:
+ -1px -1px 0 rgba(223, 223, 223, 0.7),  1px -1px 0 rgba(223, 223, 223, 0.7),  -1px 1px 0 rgba(223, 223, 223, 0.7),  1px 1px 0 rgba(223, 223, 223, 0.7);*/
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+.map-text a.map-dot-left::before,
+.map-text a.map-dot-right::after,
+.map-text a.map-dot-top::before,
+.map-text a.map-dot-bottom::after {
+	 content: '';
+	 background: #616161;
+	 border-radius: 50%;
+	 width: 12px;
+	 height: 12px;
+}
+.map-text a.map-dot-left::before {
+	 display: inline-block;
+	 vertical-align: middle;
+	 margin-right: 5px;
+}
+.map-text a.map-dot-right::after {
+	 display: inline-block;
+	 vertical-align: middle;
+	 margin-left: 5px;
+}
+.map-text a.map-dot-top::before {
+	 display: block;
+	 margin-bottom: 5px;
+}
+.map-text a.map-dot-bottom::after {
+	 display: block;
+	 margin-top: 5px;
+}
+.map-text div.pink a.map-dot-left::before,  
+.map-text div.pink a.map-dot-right::after,  
+.map-text div.pink a.map-dot-top::before,  
+.map-text div.pink a.map-dot-bottom::after {
+	/*background: #fd0178;*/
+}
+
+
+/* cherokee */
+[data-map-area="map-cherokee"] .map-text-01 {
+    top: 50px;
+    left: 324px;
+}
+[data-map-area="map-cherokee"] .map-text-02 {
+    top: 98px;
+    left: 298px;
+}
+[data-map-area="map-cherokee"] .map-text-03 {
+    top: 124px;
+    left: 118px;
+}
+[data-map-area="map-cherokee"] .map-text-04 {
+    top: 179px;
+    left: 127px;
+}
+[data-map-area="map-cherokee"] .map-text-05 {
+    top: 233px;
+    left: 188px;
+}
+[data-map-area="map-cherokee"] .map-text-06 {
+    top: 321px;
+    left: 164px;
+}
+[data-map-area="map-cherokee"] .map-text-06 a::after {
+ margin-top: 3px;
+ margin-left: 43px;
+}
+[data-map-area="map-cherokee"] .map-text-07 {
+    top: 354px;
+    left: 41px;
+}
+[data-map-area="map-cherokee"] .map-text-08 {
+    top: 418px;
+    left: 145px;
+}
+/* COBB */
+[data-map-area="map-cobb"] .map-text-01 {
+    top: 14px;
+    left: 71px;
+}
+[data-map-area="map-cobb"] .map-text-02 {
+    top: 72px;
+    left: 128px;
+}
+[data-map-area="map-cobb"] .map-text-03 {
+    top: 167px;
+    left: 200px;
+}
+[data-map-area="map-cobb"] .map-text-04 {
+    top: 260px;
+    left: 192px;
+}
+[data-map-area="map-cobb"] .map-text-05 {
+    top: 291px;
+    left: 48px;
+}
+[data-map-area="map-cobb"] .map-text-06 {
+    top: 355px;
+    left: 100px;
+}
+[data-map-area="map-cobb"] .map-text-07 {
+    right: 45px;
+    top: 123px;
+}
+/* FULTON */
+[data-map-area="map-fulton"] .map-text-01 {
+    top: 47px;
+    left: 601px;
+}
+[data-map-area="map-fulton"] .map-text-01 a.map-dot-bottom::after {
+	 margin-top: 3px;
+	 margin-left: 15px;
+}
+[data-map-area="map-fulton"] .map-text-02 {
+    top: 124px;
+    left: 496px;
+}
+[data-map-area="map-fulton"] .map-text-03 {
+    top: 143px;
+    left: 620px;
+}
+[data-map-area="map-fulton"] .map-text-04 {
+    top: 204px;
+    left: 646px;
+}
+[data-map-area="map-fulton"] .map-text-05 {
+    top: 215px;
+    left: 549px;
+}
+[data-map-area="map-fulton"] .map-text-06 {
+    top: 344px;
+    left: 482px;
+}
+[data-map-area="map-fulton"] .map-text-06 a::before {
+ 	margin-left: 48px;
+}
+[data-map-area="map-fulton"] .map-text-07  {
+    top: 589px;
+    left: 488px;
+}
+[data-map-area="map-fulton"] .map-text-07 a::before {
+   margin-left: 28px;
+}
+[data-map-area="map-fulton"] .map-text-08 {
+    top: 703px;
+    left: 231px;
+}
+[data-map-area="map-fulton"] .map-text-09 {
+    top: 674px;
+    left: 380px;
+}
+[data-map-area="map-fulton"] .map-text-10 {
+    top: 696px;
+    left: 410px;
+}
+[data-map-area="map-fulton"] .map-text-11 {
+    top: 716px;
+    left: 355px;
+}
+[data-map-area="map-fulton"] .map-text-12 {
+    top: 805px;
+    left: 257px;
+}
+[data-map-area="map-fulton"] .map-text-13 {
+    top: 830px;
+    left: 315px;
+}
+[data-map-area="map-fulton"] .map-text-14 {
+    top: 847px;
+    left: 74px;
+}
+[data-map-area="map-fulton"] .map-text-15 {
+    top: 892px;
+    left: 128px;
+}
+[data-map-area="map-fulton"] .map-text-16 {
+    top: 479px;
+    left: 457px;
+}
+[data-map-area="map-fulton"] .map-text-16 .map-dot-top::before {
+    margin-left: 19px;
+}
+[data-map-area="map-fulton"] .map-text-17 {
+    top: 535px;
+    left: 393px;
+}
+[data-map-area="map-fulton"] .map-text-18 {
+	top: 558px;
+    left: 488px;
+}
+
+[data-map-area="map-fulton"] .map-text-18 .map-dot-top::before {
+    margin-left: 29px;
+    margin-bottom: -5px;
+}
+/* DE KALB */
+[data-map-area="map-dekalb"] .map-text-01 {
+    top: 29px;
+    left: 17px;
+}
+[data-map-area="map-dekalb"] .map-text-01 a::before {
+ 	margin-left: 0;
+	margin-bottom: 0;
+}
+[data-map-area="map-dekalb"] .map-text-02 {
+    top: 74px;
+    left: 42px;
+}
+[data-map-area="map-dekalb"] .map-text-02 a::after {
+ 	margin-left: 35px;
+	margin-top: 3px;
+}
+[data-map-area="map-dekalb"] .map-text-03 {
+    top: 103px;
+    left: 24px;
+}
+[data-map-area="map-dekalb"] .map-text-03 a::before {
+ 	margin-left: 22px;
+	margin-bottom: 0;
+}
+[data-map-area="map-dekalb"] .map-text-04 {
+    top: 141px;
+    left: 12px;
+}
+[data-map-area="map-dekalb"] .map-text-04 a::before {
+ 	margin-left: 2px;
+	margin-bottom: 0;
+}
+[data-map-area="map-dekalb"] .map-text-05 {
+    top: 156px;
+    left: 146px;
+}
+[data-map-area="map-dekalb"] .map-text-05 a::before {
+	 margin-bottom: 0px;
+	 margin-left: 4px;
+}
+[data-map-area="map-dekalb"] .map-text-06 {
+    top: 232px;
+    left: 74px;
+}
+[data-map-area="map-dekalb"] .map-text-06 a::after {
+	 margin-top: 2px;
+	 margin-left: 4px;
+}
+[data-map-area="map-dekalb"] .map-text-07 {
+    top: 209px;
+    left: 38px;
+}
+[data-map-area="map-dekalb"] .map-text-08 {
+    top: 256px;
+    left: 56px;
+}
+[data-map-area="map-dekalb"] .map-text-09 {
+    top: 218px;
+    left: 174px;
+    text-align: center;
+}
+[data-map-area="map-dekalb"] .map-text-09 a::before {
+ 	margin-left: 25px;
+}
+[data-map-area="map-dekalb"] .map-text-10 {
+    top: 284px;
+    left: 51px;
+}
+[data-map-area="map-dekalb"] .map-text-10 a::before {
+ 	margin-left: 40px;
+}
+[data-map-area="map-dekalb"] .map-text-11 {
+    top: 327px;
+    left: 237px;
+}
+[data-map-area="map-dekalb"] .map-text-11 a::after {
+ 	margin-left: 30px;
+}
+[data-map-area="map-dekalb"] .map-text-12 {
+    top: 364px;
+    left: 205px;
+}
+[data-map-area="map-dekalb"] .map-text-12 a::before {
+ 	margin-left: 35px;
+	margin-bottom:0;
+}
+/* GWINNETT */
+[data-map-area="map-gwinnett"] .map-text-01 {
+    top: 78px;
+    left: 232px;
+}
+[data-map-area="map-gwinnett"] .map-text-01 span {
+    position: relative;
+    top: -7px;
+}
+[data-map-area="map-gwinnett"] .map-text-01 a::before {
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+[data-map-area="map-gwinnett"] .map-text-02 {
+    top: 54px;
+    left: 299px;
+}
+[data-map-area="map-gwinnett"] .map-text-03 {
+    top: 200px;
+    left: 424px;
+}
+[data-map-area="map-gwinnett"] .map-text-03 span{
+	/*color:#fd0178;*/
+}
+[data-map-area="map-gwinnett"] .map-text-04 {
+    top: 150px;
+    left: 208px;
+}
+[data-map-area="map-gwinnett"] .map-text-04 span {
+    position: relative;
+    left: -18px;
+    top: 19px;
+}
+[data-map-area="map-gwinnett"] .map-text-05 {
+    top: 216px;
+    left: 146px;
+}
+[data-map-area="map-gwinnett"] .map-text-06 {
+    top: 264px;
+    left: 27px;
+}
+[data-map-area="map-gwinnett"] .map-text-06 a::before {
+ 	margin-left: 25px;
+	margin-bottom:0;
+}
+[data-map-area="map-gwinnett"] .map-text-07 {
+    top: 240px;
+    left: 67px;
+}
+[data-map-area="map-gwinnett"] .map-text-08 {
+    top: 240px;
+    left: 397px;
+}
+[data-map-area="map-gwinnett"] .map-text-08 a::before {
+	 margin-bottom: 0;
+	 margin-left: 21px;
+}
+[data-map-area="map-gwinnett"] .map-text-09 {
+    top: 280px;
+    left: 269px;
+}
+[data-map-area="map-gwinnett"] .map-text-09 a:before {
+    margin-left: 48px;
+    margin-bottom: 0;
+}
+[data-map-area="map-gwinnett"] .map-text-10 {
+    top: 302px;
+    left: 42px;
+}
+[data-map-area="map-gwinnett"] .map-text-10 a:before {
+    margin-left: 28px;
+    margin-bottom: 0;
+}
+[data-map-area="map-gwinnett"] .map-text-11 {
+    top: 362px;
+    left: 357px;
+}
+[data-map-area="map-gwinnett"] .map-text-12 {
+    top: 369px;
+    left: 141px;
+}
+[data-map-area="map-gwinnett"] .map-text-13 {
+    top: 426px;
+    left: 315px;
+}
+[data-map-area="map-gwinnett"] .map-text-14 {
+    top: 412px;
+    left: 204px;
+}
+/* forsyth */
+[data-map-area="map-forsyth"] .map-text-01 {
+    top: 4px;
+    left: 122px;
+}
+[data-map-area="map-forsyth"] .map-text-01 a:before {
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+[data-map-area="map-forsyth"] .map-text-02 {
+    top: 45px;
+    right: 76px;
+}
+[data-map-area="map-forsyth"] .map-text-03 {
+    top: 160px;
+    left: 130px;
+}
+[data-map-area="map-forsyth"] .map-text-04 {
+    top: 289px;
+    left: 58px;
+}
+[data-map-area="map-forsyth"] .map-text-04 a:before {
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 1600px) {
+	.map-area {
+		width:652px;
+		height:700px;
+	}
+	#map-cherokee {
+		width:252px;
+		height:259px;
+		top: -3px;
+		left: 118px;
+	}
+	#map-cobb {
+		width: 227px;
+		height: 257px;
+		top: 251px;
+		left: 67px;
+	}
+	#map-fulton {
+		width:461px;
+		height:522px;
+		bottom: 2px;
+		left: 0px;
+	}
+	#map-dekalb {
+		width: 198px;
+		height: 268px;
+		bottom: 93px;
+		right: 147px;
+	}
+	#map-gwinnett {
+		width:294px;
+		height:314px;
+		top: 192px;
+		right: -1px;
+	}
+	#map-forsyth {
+		width: 205px;
+		height: 214px;
+		top: 62px;
+		right: 78px;
+	}
+	.map-area .img-area span{
+		font-size: 20px;
+	}
+	#map-cherokee .img-area span {
+		top: 146px;
+		left: 58px;
+	}
+	#map-cobb .img-area span {
+		top: 93px;
+		left: 34px;
+	}
+	#map-fulton .img-area span {
+    top: 325px;
+    left: 151px;
+	}
+	#map-dekalb .img-area span {
+		top: 183px;
+		left: 25px;
+	}
+	#map-gwinnett .img-area span {
+		top: 178px;
+		left: 85px;
+	}
+	#map-forsyth .img-area span {
+		top: 48px;
+		left: 29px;
+	}
+	.map-text span {
+    	font-size: 11px
+	}
+	.map-text a.map-dot-left::before,
+	.map-text a.map-dot-right::after,
+	.map-text a.map-dot-top::before,
+	.map-text a.map-dot-bottom::after {
+		 width: 9px;
+		 height: 9px;
+		 margin-bottom: 0;
+	}
+	/* cherokee */
+	[data-map-area="map-cherokee"] .map-text-01 {
+		top: 22px;
+		left: 178px;
+	}
+	[data-map-area="map-cherokee"] .map-text-02 {
+		top: 48px;
+		left: 163px;
+	}
+	[data-map-area="map-cherokee"] .map-text-03 {
+		top: 63px;
+		left: 65px;
+	}
+	[data-map-area="map-cherokee"] .map-text-04 {
+		top: 92px;
+		left: 70px;
+	}
+	[data-map-area="map-cherokee"] .map-text-05 {
+		top: 122px;
+		left: 101px;
+	}
+	[data-map-area="map-cherokee"] .map-text-06 {
+		top: 171px;
+		left: 90px;
+	}
+	[data-map-area="map-cherokee"] .map-text-07 {
+		top: 189px;
+		left: 16px;
+	}
+	[data-map-area="map-cherokee"] .map-text-08 {
+		top: 223px;
+		left: 78px;
+	}
+	/* COBB */
+	[data-map-area="map-cobb"] .map-text-01 {
+		top: 3px;
+		left: 36px;
+	}
+	[data-map-area="map-cobb"] .map-text-02 {
+		top: 36px;
+		left: 70px;
+	}
+	[data-map-area="map-cobb"] .map-text-03 {
+		top: 88px;
+		left: 109px;
+	}
+	[data-map-area="map-cobb"] .map-text-04 {
+		top: 139px;
+		left: 99px;
+	}
+	[data-map-area="map-cobb"] .map-text-05 {
+		top: 156px;
+		left: 26px;
+	}
+	[data-map-area="map-cobb"] .map-text-06 {
+		top: 191px;
+		left: 55px;
+	}
+	[data-map-area="map-cobb"] .map-text-07 {
+	    right: 26px;
+	    top: 65px;
+	}
+	/* FULTON */
+	[data-map-area="map-fulton"] .map-text-01 {
+		top: 20px;
+		left: 322px;
+	}
+	[data-map-area="map-fulton"] .map-text-02 {
+		top: 66px;
+		left: 269px;
+	}
+	[data-map-area="map-fulton"] .map-text-03 {
+		top: 79px;
+		left: 338px;
+	}
+	[data-map-area="map-fulton"] .map-text-04 {
+		top: 109px;
+		left: 342px;
+	}
+	[data-map-area="map-fulton"] .map-text-05 {
+		top: 122px;
+		left: 300px;
+	}
+	[data-map-area="map-fulton"] .map-text-05 a:before{
+		margin-bottom:0;
+	}
+	[data-map-area="map-fulton"] .map-text-06 {
+		top: 190px;
+		left: 264px;
+	}
+	[data-map-area="map-fulton"] .map-text-06 a::before {
+		margin-left: 24px;
+		margin-bottom:2px;
+	}
+	[data-map-area="map-fulton"] .map-text-07 {
+		top: 323px;
+		left: 265px;
+	}
+	[data-map-area="map-fulton"] .map-text-07 a::before {
+	   margin-left: 15px;
+	}
+	[data-map-area="map-fulton"] .map-text-08 {
+		top: 385px;
+		left: 124px;
+	}
+	[data-map-area="map-fulton"] .map-text-09 {
+		top: 366px;
+		left: 199px;
+	}
+	[data-map-area="map-fulton"] .map-text-10 {
+		top: 378px;
+		left: 216px;
+	}
+	[data-map-area="map-fulton"] .map-text-11 {
+		top: 391px;
+		left: 184px;
+	}
+	[data-map-area="map-fulton"] .map-text-12 {
+		top: 438px;
+		left: 131px;
+	}
+	[data-map-area="map-fulton"] .map-text-13 {
+		top: 453px;
+		left: 169px;
+	}
+	[data-map-area="map-fulton"] .map-text-14 {
+		top: 461px;
+		left: 38px;
+	}
+	[data-map-area="map-fulton"] .map-text-15 {
+		top: 483px;
+		left: 62px;
+	}
+	[data-map-area="map-fulton"] .map-text-16 {
+	    top: 260px;
+	    left: 242px;
+	}
+	[data-map-area="map-fulton"] .map-text-17 {
+	    top: 286px;
+	    left: 202px;
+	}
+	[data-map-area="map-fulton"] .map-text-18 {
+	    top: 302px;
+	    left: 252px;
+	}
+	[data-map-area="map-fulton"] .map-text-18 .map-dot-top::before {
+	    margin-bottom: -9px;
+	}
+	/* DE KALB */
+	[data-map-area="map-dekalb"] .map-text-01 {
+		top: 16px;
+		left: 12px;
+	}
+	[data-map-area="map-dekalb"] .map-text-01 a::before {
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-dekalb"] .map-text-02 {
+		top: 36px;
+		left: 22px;
+	}
+	[data-map-area="map-dekalb"] .map-text-02 a::after {
+		margin-left: 21px;
+		margin-top: 0px;
+	}
+	[data-map-area="map-dekalb"] .map-text-03 {
+		top: 58px;
+		left: 13px;
+	}
+	[data-map-area="map-dekalb"] .map-text-03 a::before {
+		margin-left: 12px;
+		margin-bottom: -6px;
+	}
+	[data-map-area="map-dekalb"] .map-text-04 {
+		top: 78px;
+		left: 9px;
+	}
+	[data-map-area="map-dekalb"] .map-text-04 a::before {
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-dekalb"] .map-text-05 {
+		top: 86px;
+		left: 88px;
+	}
+	[data-map-area="map-dekalb"] .map-text-05 a::before {
+		margin-bottom: -4px;
+		margin-left: 0px;
+	}
+	[data-map-area="map-dekalb"] .map-text-06 {
+		top: 124px;
+		left: 35px;
+	}
+	[data-map-area="map-dekalb"] .map-text-07 {
+		top: 110px;
+		left: 15px;
+	}
+	[data-map-area="map-dekalb"] .map-text-08 {
+		top: 135px;
+		left: 31px;
+	}
+	[data-map-area="map-dekalb"] .map-text-09 {
+		top: 118px;
+		left: 96px;
+		text-align: center;
+	}
+	[data-map-area="map-dekalb"] .map-text-09 a::before {
+		margin-left: 15px;
+	}
+	[data-map-area="map-dekalb"] .map-text-10 {
+		top: 154px;
+		left: 29px;
+	}
+	[data-map-area="map-dekalb"] .map-text-10 a::before {
+		margin-left: 20px;
+	}
+	[data-map-area="map-dekalb"] .map-text-11 {
+		top: 170px;
+		left: 128px;
+	}
+	[data-map-area="map-dekalb"] .map-text-11 a::after {
+		margin-left: 20px;
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-dekalb"] .map-text-12 {
+		top: 200px;
+		left: 111px;
+	}
+	[data-map-area="map-dekalb"] .map-text-12 a::before {
+		margin-left: 21px;
+		margin-bottom: -4px;
+	}
+	/* GWINNETT */
+	[data-map-area="map-gwinnett"] .map-text-01 {
+		top: 41px;
+		left: 127px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-01 a::before {
+		margin-left: 18px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-02 {
+		top: 24px;
+		left: 163px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-03 {
+		top: 106px;
+		left: 232px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-04 {
+		top: 76px;
+		left: 113px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-04 span {
+    	position: relative;
+	    left: -18px;
+	    top: 11px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-05 {
+		top: 112px;
+		left: 80px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-06 {
+		top: 144px;
+		left: 13px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-06 a::before {
+		margin-left: 15px;
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-07 {
+		top: 127px;
+		left: 38px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-08 {
+		top: 127px;
+		left: 217px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-08 a::before {
+		margin-bottom: -4px;
+		margin-left: 11px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-09 {
+		top: 154px;
+		left: 140px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-09 a:before {
+		margin-left: 33px;
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-10 {
+		top: 166px;
+		left: 24px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-10 a:before {
+		margin-left: 18px;
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-11 {
+		top: 193px;
+		left: 195px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-12 {
+		top: 197px;
+		left: 76px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-13 {
+		top: 228px;
+		left: 165px;
+	}
+	[data-map-area="map-gwinnett"] .map-text-14 {
+		top: 220px;
+		left: 105px;
+	}
+	/* forsyth */
+	[data-map-area="map-forsyth"] .map-text-01 {
+		top: 2px;
+		left: 71px;
+	}
+	[data-map-area="map-forsyth"] .map-text-01 a:before {
+		margin-left: 20px;
+		margin-bottom: -4px;
+	}
+	[data-map-area="map-forsyth"] .map-text-02 {
+		top: 20px;
+		right: 38px;
+	}
+	[data-map-area="map-forsyth"] .map-text-03 {
+		top: 85px;
+		left: 73px;
+	}
+	[data-map-area="map-forsyth"] .map-text-04 {
+		top: 159px;
+		left: 35px;
+	}
+	[data-map-area="map-forsyth"] .map-text-04 a:before {
+		margin-left: 18px;
+		margin-bottom: -4px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.map-area {
+		width: auto;
+		height: auto;
+		padding: 30px;
+		margin-top:0
+	}
+	.map-area > div {
+		position: static;
+	}
+	.img-area img{
+		display:none;
+	}
+	.map-text div {
+		position: static;
+		margin: 7px 0;
+	}
+	.map-area .img-area span {
+		position: static;
+		transform: none;
+		display:block;
+	}
+	#map-fulton .img-area span{
+		transform: none;
+	}
+	#map-cherokee, #map-cobb, #map-fulton,  #map-dekalb, #map-gwinnett, #map-forsyth{
+		width: 100%;
+		height: auto;
+	}
+	.map-text span br{
+		display:none;
+	}
+	.map-text a{
+		position:relative;
+		display:block;
+		padding-left:15px;
+		text-align:left;
+	}
+	.map-text a.map-dot-left::before,
+	.map-text a.map-dot-right::after,
+	.map-text a.map-dot-top::before,
+	.map-text a.map-dot-bottom::after {
+		 margin: 0!important;
+		 position:absolute;
+		 left:0;
+		 top:7px;
+	}
+	.map-text {
+		padding: 14px;
+	}
+	.map-text span {
+		font-size: 14px;
+		text-shadow: inherit;
+		font-smooth: always;
+	}
+	.map-area .img-area span {
+		font-size: 16px;
+		text-shadow: inherit;
+	}
+	/* Accordion
+	================================================== */
+	
+	.map-main {
+	  position: relative;
+	  margin-bottom:8px;
+	}	
+	.img-area {
+	  background: #fff;
+	  display: block;
+	  padding: 10px 15px;
+	  position: relative;
+	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	}
+	.img-area::after {
+		width: 8px;
+		height: 8px;
+		border-right: 1px solid #4a6e78;
+		border-bottom: 1px solid #4a6e78;
+		position: absolute;
+		right: 18px;
+		content: " ";
+		top: 13px;
+		transform: rotate(-45deg);
+		transition: all 0.2s ease-in-out;
+	}
+	.img-area.active::after {
+	  transform: rotate(45deg);
+	  transition: all 0.2s ease-in-out;
+	}
+	.img-area.active{
+		background: #ffce6a;
+	}
+	/*.img-area.active span{
+		color:#fff;
+	}
+	.img-area.active::after{
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}*/
+	.map-text {
+	  display: none;
+	}
+}

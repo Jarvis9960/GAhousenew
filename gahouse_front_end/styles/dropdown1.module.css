@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowntoggle::after {
+    content: "\25BC";
+    font-size: 5px;
+    /* position: absolute; */
+    /* right: 10px; */
+    /* top: 50%; */
+    transform: translateY(-50%);
+  }
+  
+  .dropdownmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdownmenu {
+    display: block;
+  }
+  

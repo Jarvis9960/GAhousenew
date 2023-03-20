@@ -1,0 +1,451 @@
+{
+  
+  
+
+    "_id": {
+    "$oid": "63de9a443a895c9819070a8a"
+  },
+  "@odata": {
+    "context": "https://api.bridgedataoutput.com/api/v2/OData/fmls/$metadata#Property",
+    "id": "https://api.bridgedataoutput.com/api/v2/OData/fmls/Property('6a8bb2a0e8d18d627270eb47363c2d82')"
+  },
+
+    "StreetDirPrefix": {},
+  "FMLS_MlsPropertyType": "Residential Detached",
+  "BedroomsTotal": null,
+  "LeaseAssignableYN": null,
+  "FMLS_Deposit": null,
+  "FMLS_CertProfHomeBldrs": null,
+  "CoListAgentDirectPhone": null,
+  "FMLS_PetDepositAmount": null,
+  "FMLS_RepresentativeofPropertyYN": null,
+  "FMLS_OpenHouseCount": "0",
+  "CarportSpaces": null,
+  "OnMarketDate": null,
+  "FMLS_SaleIncludes": [],
+  "LaundryFeatures": [
+    "In Kitchen",
+    "Laundry Room"
+  ],
+  "MajorChangeTimestamp": null,
+  "Flooring": [
+    "Hardwood"
+  ],
+  "PhotosCount": "12",
+  "FMLS_DPRURL2": null,
+  "FMLS_GrossExpensesAmount": null,
+  "FireplacesTotal": "3",
+  "FMLS_MinHouseSQFT": null,
+  "FMLS_MoveInFeeYN": null,
+  "WaterfrontFeatures": [],
+  "CoBuyerAgentDirectPhone": null,
+  "RoomBedroomFeatures": [
+    "Master on Main",
+    "Sitting Room"
+  ],
+  "Cooling": [
+    "Heat Pump",
+    "Zoned"
+  ],
+  "FMLS_SchoolBusRouteElemYN": null,
+  "ExteriorFeatures": [
+    "Garden",
+    "Rear Stairs"
+  ],
+  "FMLS_PerFamilyAmount": null,
+  "FMLS_InitiationFee": "0",
+  "SourceSystemID": "M00000175",
+  "FMLS_LoadingDesc": [],
+  "StatusChangeTimestamp": "2011-01-01T05:00:00.000Z",
+  "Longitude": -84.792429,
+  "AvailabilityDate": "2009-06-11",
+  "SecurityFeatures": [
+    "Fire Alarm",
+    "Smoke Detector(s)"
+  ],
+  "BuyerAgentFullName": null,
+  "PublicRemarks": "TOO PERFECT TO DESCRIBE!BANQUET SIZE DINING,GOURMET KIT W/KEEPING RM,MSTR STE W/SITTING,MORNING RM,&FRENCH DOORS TO UPPER TERRACE,HIS/HER CLOSETS,UPSTAIRS BONUS,FIN TERRACE W/BR,2.5 BAs,CUSTOM BAR,HOME THEATRE,INGROUND POOL,APPROX 600' OF ETOWAH RIVER FRONTAGE,WiFi,ELECTRONIC PARADISE!",
+  "FMLS_RoadFrontFeet": null,
+  "FMLS_MaximumRentalMonths": null,
+  "FMLS_AssessmentDueContemplatedYN": "false",
+  "FMLS_OfficeRemarks": null,
+  "AssociationFeeFrequency": "Annually",
+  "FMLS_District": "4",
+  "WaterBodyName": "None",
+  "FMLS_Timber": [],
+  "CoListOfficeName": null,
+  "PurchaseContractDate": null,
+  "RoadSurfaceType": [
+    "Paved"
+  ],
+  "AboveGradeFinishedArea": null,
+  "PriceChangeTimestamp": null,
+  "RoomDiningRoomFeatures": [
+    "Seats 12+",
+    "Separate Dining Room"
+  ],
+  "ListingKeyNumeric": "1192024",
+  "MajorChangeType": null,
+  "LeasableArea": null,
+  "ListingContractDate": {
+    "$date": {
+      "$numberLong": "1244678400000"
+    }
+  },
+  "Zoning": null,
+  "CoBuyerAgentKeyNumeric": null,
+  "Appliances": [
+    "Dishwasher",
+    "Disposal",
+    "Double Oven",
+    "Gas Range",
+    "Microwave",
+    "Self Cleaning Oven"
+  ],
+  "FMLS_AlsoListedinFMLSForSaleYN": null,
+  "TaxAnnualAmount": 14377,
+  "ListOfficeName": "KELLER WILLIAMS REALTY NW",
+  "CoBuyerOfficeName": null,
+  "BelowGradeFinishedArea": null,
+  "TaxBlock": "0",
+  "Basement": [
+    "Bath/Stubbed",
+    "Daylight",
+    "Exterior Entry",
+    "Finished",
+    "Full",
+    "Interior Entry"
+  ],
+  "CurrentUse": [],
+  "OriginatingSystemKey": "fmls",
+  "BusinessType": [],
+  "FMLS_MoveOutFeeAmount": null,
+  "CountyOrParish": "Bartow",
+  "DualVariableCompensationYN": false,
+  "Latitude": 34.134435,
+  "PropertyType": "Residential",
+  "PhotosChangeTimestamp": {
+    "$date": {
+      "$numberLong": "1593199019587"
+    }
+  },
+  "ListPrice": null,
+  "BuyerAgentKeyNumeric": null,
+  "TaxParcelLetter": "C073000001013",
+  "RoadFrontageType": [],
+  "OriginatingSystemName": "First Multiple Listing Service",
+  "ListOfficePhone": "770-607-7400",
+  "FMLS_LandLot": "769",
+  "GreenEnergyGeneration": [],
+  "FMLS_CreditReportRequiredYN": null,
+  "AssociationYN": "true",
+  "MlsStatus": "Expired",
+  "StreetNumber": null,
+  "CoListOfficeMlsId": null,
+  "FMLS_MaximumContinuousSpace": null,
+  "UniversalPropertyId": null,
+  "LeaseTerm": null,
+  "ListingKey": "6a8bb2a0e8d18d627270eb47363c2d82",
+  "AssociationFee2Frequency": "Annually",
+  "FMLS_LeaseIncludes": [],
+  "FMLS_PreviousStatus": "Active",
+  "StateOrProvince": "GA",
+  "CommonWalls": [
+    "No Common Walls"
+  ],
+  "FMLS_SpecialCircumstances": [
+    "None"
+  ],
+  "FMLS_UnitCount": 0,
+  "GreenBuildingVerificationType": [],
+  "FMLS_AssociationRentRestrictionsYN": null,
+  "ListAgentKeyNumeric": 2732023,
+  "MiddleOrJuniorSchool": "Cartersville",
+  "AssociationFeeIncludes": [
+    "Swim/Tennis"
+  ],
+  "FMLS_ApplicationFeePerFamilyYN": null,
+  "VirtualTourURLUnbranded": "www.visualtour.com/shownp.asp?sk=13&t=1916101",
+  "Vegetation": [],
+  "FMLS_CommonAreaMtncFee": null,
+  "ElementarySchool": "Cartersville",
+  "StreetDirSuffix": null,
+  "ListOfficeKeyNumeric": 2385090,
+  "FMLS_PriceAcreAmount": null,
+  "CoBuyerOfficePhone": null,
+  "FMLS_NumberofUnitsToBeBuilt": null,
+  "Directions": null,
+  "BridgeModificationTimestamp": {
+    "$date": {
+      "$numberLong": "1573117711161"
+    }
+  },
+  "ListAgentFullName": "Bonnie B Mullinax",
+  "FMLS_DuplicateMLSNumber": null,
+  "MainLevelBathrooms": null,
+  "StandardStatus": "Expired",
+  "Roof": [
+    "Ridge Vents"
+  ],
+  "PropertyCondition": [
+    "Resale"
+  ],
+  "ParkingTotal": "3",
+  "FMLS_AvailableLeaseType": [],
+  "CoListOfficeKeyNumeric": null,
+  "GrossIncome": null,
+  "ParcelNumber": "7GalwayDR",
+  "PoolPrivateYN": null,
+  "FMLS_ReservationDeposit": null,
+  "FMLS_DepositRequired": [],
+  "AdditionalParcelsDescription": null,
+  "ListingTerms": [],
+  "BuilderName": null,
+  "View": [
+    "Lake",
+    "Other"
+  ],
+  "FMLS_RemineModifiedDT": null,
+  "OperatingExpense": null,
+  "FMLS_VirtualTourURLUnbranded2": "www.PropertyPanorama.com/slideshow/?id=71046",
+  "PropertySubType": "Single Family Residence",
+  "BuyerAgentDirectPhone": null,
+  "FMLS_ApplicationFeePerAdultYN": null,
+  "HighSchool": "Cartersville",
+  "HomeWarrantyYN": "false",
+  "Levels": [
+    "Three Or More"
+  ],
+  "FMLS_GCCMLNumber": null,
+  "InteriorFeatures": [
+    "Cathedral Ceiling(s)",
+    "Entrance Foyer",
+    "Entrance Foyer 2 Story",
+    "High Ceilings 9 ft Upper",
+    "High Ceilings 10 ft Main",
+    "High Speed Internet",
+    "His and Hers Closets",
+    "Low Flow Plumbing Fixtures",
+    "Tray Ceiling(s)",
+    "Wet Bar"
+  ],
+  "BathroomsFull": null,
+  "LockBoxType": [
+    "None"
+  ],
+  "LotSizeAcre": null,
+  "SubdivisionNameL": null,
+  "CoBuyerAgentMlsId": null,
+  "FMLS_CurrentPrice": null,
+  "Fencing": [
+    "Fenced"
+  ],
+  "InternetAddressDisplayYN": "true",
+  "LotSizeSource": null,
+  "CloseDate": null,
+  "StreetSuffix": "Drive",
+  "ListAgentMlsId": "MULLINAX",
+  "HorseAmenities": [],
+  "FMLS_MinimumRentalMonths": null,
+  "WaterSource": [
+    "Public"
+  ],
+  "FMLS_PublicRemarksExtra": null,
+  "LotSizeDimensions": "3.94",
+  "YearBuilt": "2005",
+  "FMLS_SchoolBusRouteMiddleYN": null,
+  "PropertyAttachedYN": false,
+  "TaxLot": "528",
+  "FMLS_Management": null,
+  "CoBuyerOfficeMlsId": null,
+  "OriginatingSystemID": "fmls",
+  "ZoningDescription": null,
+  "LandLeaseYN": null,
+  "PreviousListPrice": 2300000,
+  "FMLS_AttributionContact": null,
+  "FMLS_SwimTennisFee": 0,
+  "PetsAllowed": [],
+  "DaysOnMarket": 568,
+  "UnitNumber": null,
+  "RoomKitchenFeatures": [
+    "Breakfast Bar",
+    "Cabinets Other",
+    "Eat-in Kitchen",
+    "Kitchen Island",
+    "Keeping Room",
+    "Pantry"
+  ],
+  "BuyerAgencyCompensationType": null,
+  "NetOperatingIncome": null,
+  "OtherStructures": [
+    "None"
+  ],
+  "FMLS_SwimTennisFeeDue": null,
+  "BodyType": [],
+  "ListOfficeMlsId": "KWNW01",
+  "FMLS_AssumableYN": false,
+  "ClosePrice": null,
+  "FMLS_SectionGMD": "3",
+  "FMLS_HERSIndexRating": "0",
+  "ListAgentDirectPhone": "770-606-0054",
+  "RoomType": [
+    "Bonus Room",
+    "Exercise Room",
+    "Family Room",
+    "Game Room",
+    "Media Room",
+    "Office"
+  ],
+  "FMLS_BuyerFirmMlsId": null,
+  "CoListAgentFullName": null,
+  "FMLS_FHACondoApprovalYN": null,
+  "StreetNumberNumeric": null,
+  "FMLS_RestrictionsRequirements": [],
+  "SpaFeatures": [],
+  "CoListAgentKeyNumeric": null,
+  "ParkingFeatures": [
+    "Garage",
+    "Garage Door Opener",
+    "Garage Faces Side",
+    "Kitchen Level"
+  ],
+  "PostalCodePlus4": null,
+  "BathroomsHalf": null,
+  "FMLS_WaterfrontageLength": 0,
+  "PoolFeatures": [
+    "Gunite",
+    "In Ground"
+  ],
+  "NumberOfUnitsInCommunity": null,
+  "Sewer": [
+    "Public Sewer"
+  ],
+  "BuildingAreaSource": "Public Records",
+  "CoListAgentMlsId": null,
+  "FMLS_NumberofEntrances": null,
+  "StreetName": null,
+  "OwnerPays": [],
+  "FMLS_RecommendedZoning": [],
+  "PatioAndPorchFeatures": [
+    "Deck",
+    "Front Porch",
+    "Patio"
+  ],
+  "FMLS_SchoolBusRouteHighYN": null,
+  "FMLS_SaleOptions": [],
+  "MainLevelBedrooms": null,
+  "BuyerOfficePhone": null,
+  "FMLS_ActiveOpenHouseCount": 0,
+  "Utilities": [
+    "Cable Available",
+    "Underground Utilities"
+  ],
+  "FireplaceFeatures": [
+    "Family Room",
+    "Gas Starter",
+    "Living Room",
+    "Master Bedroom"
+  ],
+  "FMLS_MoveInFeeAmount": null,
+  "ListingId": 3917668,
+  "WindowFeatures": [
+    "Insulated Windows"
+  ],
+  "SpecialListingConditions": [
+    "None"
+  ],
+  "CommunityFeatures": [
+    "Clubhouse",
+    "Homeowners Assoc",
+    "Playground",
+    "Street Lights",
+    "Tennis Court(s)"
+  ],
+  "BathroomsTotalInteger": null,
+  "FMLS_MinimumSpaceAvailable": null,
+  "NumberOfBuildings": null,
+  "FMLS_Dock": [
+    "None"
+  ],
+  "GarageSpaces": "3",
+  "OriginalListPrice": 2300000,
+  "FMLS_BelowGradeUnfinishedArea": null,
+  "AssociationFee2": "0",
+  "GreenEnergyEfficient": [
+    "HVAC",
+    "Insulation",
+    "Thermostat",
+    "Windows"
+  ],
+  "Media": null,
+  "BuildingAreaUnits": null,
+  "CapRate": null,
+  "FMLS_OwnerFinancingYN": "false",
+  "City": null,
+  "InternetEntireListingDisplayYN": true,
+  "FMLS_MoveOutFeeYN": null,
+  "BuyerAgencyCompensation": "3",
+  "CoBuyerOfficeKeyNumeric": null,
+  "BuyerOfficeKeyNumeric": null,
+  "AccessibilityFeatures": [
+    "None"
+  ],
+  "TaxYear": 2009,
+  "FMLS_OwnerSecondYN": "false",
+  "Ownership": null,
+  "BuyerAgentMlsId": null,
+  "FMLS_DPRYN": null,
+  "FMLS_CeilingHeight": null,
+  "SourceSystemName": "First Multiple Listing Service",
+  "LotFeatures": [
+    "Cul-De-Sac",
+    "Landscaped",
+    "Private"
+  ],
+  "FMLS_AnnualUtilitiesAmount": null,
+  "PostalCode": 30120,
+  "PossibleUse": [],
+  "Furnished": null,
+  "FMLS_ListFirmMlsId": "KWNW",
+  "BuyerOfficeMlsId": null,
+  "DocumentsAvailable": [],
+  "ConstructionMaterials": [
+    "Brick 3 Sides",
+    "Stone"
+  ],
+  "ListOfficeURL": "www.cartersvillekw.com",
+  "NumberOfUnitsTotal": null,
+  "BuyerOfficeName": null,
+  "AssociationFee": 460,
+  "CoBuyerAgentFullName": null,
+  "FMLS_RemineAccessCode": null,
+  "TenantPays": [],
+  "FMLS_DPRURL": null,
+  "RoomBasementLevel": "Basement",
+  "Electric": [],
+  "ArchitecturalStyle": [
+    "Craftsman",
+    "Traditional"
+  ],
+  "RoomMasterBathroomFeatures": [
+    "Double Vanity",
+    "Separate Tub/Shower",
+    "Vaulted Ceiling(s)",
+    "Whirlpool Tub"
+  ],
+  "UnparsedAddress": null,
+  "CoListOfficePhone": null,
+  "BuildingAreaTotal": "10273",
+  "OtherEquipment": [
+    "Intercom",
+    "Irrigation Equipment",
+    "Satellite Dish"
+  ],
+  "FMLS_EscalationType": null,
+  "HabitableResidenceYN": null,
+  "FeedTypes": [
+    "IDX"
+  ],
+  "__v": 0
+  
+}
